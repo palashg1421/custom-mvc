@@ -1,0 +1,19 @@
+{
+    "name": "palash/mvc",
+    "description": "An MVC representation in core PHP",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "palashg1421",
+            "email": "palashgupta142@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+		"psr-4": {
+			"Core\\": "core/",
+            "App\\": "app/"
+		}
+	}
+}
